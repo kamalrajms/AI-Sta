@@ -1,0 +1,783 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frontpage{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smart sub{
+    font-size: 20px;
+    font-weight: 500;
+}
+.interior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.interior sub{
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 60px;
+    text-align: center; 
+}
+.para{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.startfree button{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #67c9a5;
+    margin-top: 20px;
+    border: none;
+    border-color: #67c9a5;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.dots{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+.images{
+    display: flex;
+    gap: 20px;
+    border: none;
+    border-color: transparent;
+    border-radius: 5px;
+}
+.images img{
+    width: 350px;
+    height: 250px;
+}
+.arrows{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.number{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Fourimg{
+    display: flex;
+    margin-top: 20px;
+}
+.Img4 img{
+    width: 60px;
+    height: 60px;
+    border: solid 4px white;
+    border-radius: 50px;
+}
+.Design{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+   
+}
+.easy{
+    font-size: 30px;
+    font-weight: 500;
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.steps nav{
+    font-size: 20px;
+    font-weight: 500;
+}
+.steps sub{
+    text-align: center;
+}
+.foursteps{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #dadfe3;
+    margin-top: 20px;
+}
+.step1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 200px;
+    height: 100px;
+    border: solid 1px;
+    border-width: 0 1px 0 0;
+    border-color: lightslategray;
+    text-align: center;
+}
+.step4{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+.head1{
+    font-size: 18px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 75%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    border-color: #dadfe3;
+    background-color: #dadfe3;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.surprice sub{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.conain{
+    display: flex;
+    gap: 40px;
+    
+
+}
+.leftcontain{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: solid 1px black;
+    border-style: dashed;
+}
+.startleft{
+    display: flex;
+    justify-content: space-around;
+}
+.startleft sub{
+    font-size: 12px;
+    font-weight: 400;
+}
+.arrow{
+   padding-top: 30px;
+}
+.uploadbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+.uploadbutton button{
+    font-size: 10px;
+    font-weight: 400;
+}
+.rightcontain{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 30px;
+    width: 50%;
+}
+.Room{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+}
+.Room sub{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+.living{
+    display: flex;
+    width: 100%;
+    height: 32px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    gap: 10px;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.living sub{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.surpriceme{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+}
+.surpriceme button{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #67c9a5;
+    margin-top: 20px;
+    border: none;
+    border-color: #67c9a5;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.Learn sub{
+    font-size: 15px;
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: light black;
+    margin-top: 30px;
+}
+.SignUp{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    gap: 50px;
+    background-color: #dadfe3;
+    margin-top: 30px;
+}
+.Sign{
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.offer{
+    color: #67c9a5;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.SignUp button{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #67c9a5;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    gap: 3px;
+}
+.stackly{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.stacklyhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 250px;
+}
+.stacklyhead sub{
+    font-size: 18px;
+    font-weight: 400;
+}
+.company{
+    font-size: 30px;
+    font-weight: 500;
+}
+.threecarousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.firstcar{
+    width: 250px;
+    height: 260px;
+    border: none;
+    background-color: #dadfe3;
+    border: solid 1px black;
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.subfirst{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 8px;
+    background-color: #dadfe3;
+    margin-top: 40px;
+}
+.firstpara{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #dadfe3;
+    padding-left: 3px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.name sub{
+    font-size: 15px;
+    font-weight: 500;
+}
+.position{
+    font-size: 12px;
+
+}
+.subfirst img{
+    size: 10px;
+    width: 50px;
+    height: 40px;
+    border: solid 4px white;
+    border-radius: 50px;
+    z-index:auto;
+    margin-top: -5px;
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.peopleimg{
+    display: flex;
+}
+.peopleimg img{
+    width: 60px;
+    height: 60px;
+    border: solid 4px white;
+    border-radius: 50px;
+}
+.Trusted{
+    font-size: 20px;
+    font-weight: 500;
+}
+.resultcont{
+    width: 100%;
+    height: 60px;
+    background-color: #dadfe3;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.resultcont sub{
+    font-size: 15px;
+    background-color: #dadfe3;
+}
+.ques{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+    margin-bottom: 20px;
+
+}
+.firstques{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #e8eaeb;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #e8eaeb;
+}
+.firstques sub{
+    font-size: 13px;
+    font-weight: 500;
+}
+.black{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+.pgno2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+}
+.greenhead{
+    color: #67c9a5;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+.aidesign{ 
+    margin-top: 20px;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: left;
+    text-align: start;
+
+}  
+.aidesign sub{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+}
+.aidesign p{
+    font-size: 12px;
+}
+.imagespg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+.imagespg2 img{
+    width: 350px;
+    height: 250px;
+
+}
+.arrows2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.surprice1 button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    background-color: #67c9a5;
+    margin-top: 20px;
+    border: none;
+    border-color: #67c9a5;
+    border-radius: 5px;
+    box-shadow: none;
+    
+}
+.Trusted{
+    text-align: center;
+}
+
+@media screen and (max-width:1000px){
+    .surprice1 button{
+        width: 250px;
+    }
+    }
+@media screen and (max-width:750px){
+    .company{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:650px) {
+    .images img{
+        width: 300px;
+        height: 150px;
+        
+    }
+    .imagespg2 img{
+        width: 300px;
+        height: 150px;
+       
+    }
+    .stacklyhead{
+        margin-left: 30px;
+    }
+    
+}
+@media screen and (max-width:550px){
+    .frontpage{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .images img{
+        width: 250px;
+        height: 150px;
+        
+    }
+    .interior sub{
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .threecarousel{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        gap: 10px;
+    }
+    .stacklyhead sub,.company{
+        margin-left: 20px ;
+    }
+    .Fourimg{
+        margin-left: 0;
+    }
+    .Img4 img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .SignUp{
+        width: 100%;
+    }
+    .imagespg2 img{
+        width: 250px;
+        height: 150px;
+       
+    }
+    .stacklyhead{
+        margin-left: 20px;
+    }
+    .surpriceme button{
+        width: 200px;
+    }
+    .Conain{
+        gap: 20px;
+    }
+    .foursteps{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+    .step1,.step4{
+        border: none;
+    }
+
+}
+@media screen and (max-width:500px){
+    .images{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagespg2{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Fourimg,.foursteps,.container,.Conain,.surpriceme{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+    .step1,.step4{
+        border: none;
+    }
+    .Sign{
+        gap: 30px;
+        margin-left: 30px;
+    }
+    .threecarousel{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+    }
+}
+@media screen and (max-width:450px){
+    .leftcontain,.rightcontain,.surpriceme button,.Learn sub{
+        margin: 0;
+    }
+    .surprice1 button{
+        width: 200px;
+    }
+    .SignUp{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding-bottom: 10px;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:400px){
+    .interior sub{
+        font-size: 20px;
+        text-align: center;
+    }
+    .threecarousel{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+    }
+    .greenhead {
+        font-size: 20px;
+
+    }
+    .Conain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .surpriceme button{
+        width: 150px;
+    }
+    .firstques{
+        width: 300px;
+    }
+    .leftcontain{
+        height:auto;
+        padding: 10px 0;
+    }
+    .resultcont sub{
+        text-align: center;
+    }
+    .resultcont sub{
+        font-size: 18px;
+    }
+    .firstques{
+        width: 180px;
+    }
+    .surpriceme{
+        gap: 15px;
+    }
+    .offer {
+        padding-right: 10px;
+    }
+    .SignUp {
+        padding: 15px;
+    }
+}
+@media screen and (max-width:450px){
+    .interior sub{
+        font-size: 25px;
+    }
+    .threecarousel{
+        flex-wrap: wrap;
+    }
+    .company{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .surpriceme button{
+        width: 150px;
+    }
+    .firstques{
+        width: 300px;
+    }
+    .startfree button {
+        width: 200px;
+    }
+    .resultcont sub{
+        text-align: center;
+    }
+    .resultcont sub{
+        font-size: 18px;
+    }
+    .firstques{
+        width: 180px;
+    }
+    .aidesign sub{
+        font-size: 15px;
+    }
+    .greenhead,.interior sub,.surprice sub{
+        font-size: 18px;
+    }
+    .leftcontain{
+        height: auto;
+        width: 60%;
+        padding: 8px;
+    }
+    .Sign{
+        padding-top: 10px;
+    }
+    .startleft sub{
+        font-size: 12px;
+    }
+    .Room sub{
+        font-size: 12px;
+    }
+
+    
+}
+@media screen and (max-width:280px){
+    .interior sub{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .para{
+        font-size: 10px;
+    }
+    .startfree button {
+        width: 200px;
+    }
+    .dots{
+        gap: 30px;
+        margin-left: 30px;
+    }
+    .company{
+        font-size: 20px;
+    }
+    .resultcont sub,.greenhead {
+        font-size: 16px;
+    }
+    .surprice1 button{
+        width: 150px;
+    }
+
+
+}
